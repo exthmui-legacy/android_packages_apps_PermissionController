@@ -392,6 +392,7 @@
     <!--- @see android.telecom.CallScreeningService -->
     <role
         name="android.app.role.CALL_SCREENING"
+        behavior="CallScreeningRoleBehavior"
         description="@string/role_call_screening_description"
         exclusive="true"
         label="@string/role_call_screening_label"
